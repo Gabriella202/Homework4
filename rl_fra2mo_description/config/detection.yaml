@@ -1,0 +1,23 @@
+waypoints:
+  - goal: "goal_1"
+    position:
+      x: -3.5    
+      y: 1.0
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0123350849606   # sin(135)
+      w: -0.0123350849606   # cos(90+45) 
+
+  - goal: "goal_2"
+    position:
+      x: 0.0    
+      y: 0.0
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+

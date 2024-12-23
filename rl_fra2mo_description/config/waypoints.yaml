@@ -1,0 +1,42 @@
+waypoints:
+  - goal: "goal_1"
+    position:
+      x: 0.0    # Goal 1: x = 0 m, y = 3 m, Y = 0 deg
+      y: 3.0
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0    # sin(0/2)
+      w: 1.0    # cos(0/2)
+  - goal: "goal_2"
+    position:
+      x: 6.0    # Goal 2: x = 6 m, y = 4 m, Y = 30 deg
+      y: 4.0
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.2588190451    # sin(30°/2)
+      w: 0.9659258263    # cos(30°/2)
+  - goal: "goal_3"
+    position:
+      x: 6.5    # Goal 3: x = 7.0 m, y = -1.4 m, Y = 180 deg
+      y: -1.4
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 1.0    # sin(180°/2)
+      w: 0.0    # cos(180°/2)
+  - goal: "goal_4"
+    position:
+      x: -1.6   # Goal 4: x = -1.6 m, y = -2.5 m, Y = 75 deg
+      y: -2.5
+      z: 0.1
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.6087614129   # sin(75°/2)
+      w: 0.7833533401    # cos(75°/2)
+
